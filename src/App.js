@@ -1,25 +1,16 @@
 import logo from './logo.svg';
 import './App.css';
 
-import {Component1} from "./Component1";
+import {MiComponente} from "./MiComponente";
+import MiValidador from './MiValidador';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App">n
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-        <Component1 aoo="tuyte" nombre="alejandro" apellido="iglesias"/>
+        <p>Clave UV-Valpo</p>
+      <MiValidador valor = "43634343"/>
+      <MiComponente aoo="tuyte" nombre="Felipe" apellido="Rojas"/>
       
       </header>
     </div>

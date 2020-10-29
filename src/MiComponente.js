@@ -2,7 +2,7 @@ import react from "react";
 
 // <Component1 nombre="alejandro" apellido="iglesias" />
 // {nombre: "alejandro", apellido: "iglesoas"}
-export function Component1(props){
+export function MiComponente(props){
     let { nombre, apellido} = props; // es6
 
     return (<div>
